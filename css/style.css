@@ -40,6 +40,27 @@ header {
     border: 1px solid #808080;
 }
 
+#contactConnect {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#connect {
+    margin-top: 2vh;
+    margin-left: 4vw;
+}
+
+#connect a {
+    font-size: 1.3em;
+    margin-left: 5vw;
+    line-height: 2.3em;
+}
+
+h4 {
+    color: #3f3f3f;
+    font-size: 1.7em;
+}
+
 #mainpic {
     float: left;
     padding: 0px 20px 6px 0px;
@@ -57,7 +78,7 @@ a {
 }
 
 a:hover {
-    color: rgb(150, 150, 150);
+    color: rgb(247, 210, 1);
 }
 
 h1 {
@@ -70,7 +91,7 @@ h1 {
 }
 
 h1:hover {
-    color: rgb(150, 150, 150);
+    color: rgb(247, 210, 1);
 }
 
 h3, h5 {
@@ -84,7 +105,7 @@ h2 {
 }
 
 p, label {
-    font-size: 1.1em;
+    font-size: 1.2em;
     color: #3f3f3f;
 }
 
@@ -96,6 +117,8 @@ label {
 .textbox {
     width: 500px;
 }
+
+
 
 .gallerydiv {
     display: flex;
@@ -144,18 +167,19 @@ button {
     font-size: 1em;
     line-height: 1.2em;
     color: #3f3f3f;
-    background: #e7f153b9;
+    background: #deee02b9;
     padding: 10px 20px;
     margin-bottom: 20px;
 }
 
 button:hover {
     color: rgb(150, 150, 150);
+    background: #e7f153b9;
 }
 
 footer {
     z-index: 2;
-    height: 60px;
+    height: 45px;
     width: 100%;
     background-color: rgba(241, 241, 239, 0.7);
     margin-top: 30px;
@@ -163,7 +187,7 @@ footer {
     border-top: 2px solid #effc3f;
     position: fixed;
     bottom: 0;
-    font-size: .9em;
+    font-size: .8em;
     text-align: center;
     color: #2b2b2b;
 
@@ -231,18 +255,20 @@ footer {
 
 h1 {
     line-height: 1.2em;
-    padding-bottom: 3px;
+    padding-bottom: 6px;
     margin-bottom: 0px;
     }
 
 nav {
-    margin-top: 0;
+    margin: 4px 0 2px 0;
     padding: 0px 0 9px 0;
     }
 
 .container {
     width: 480px;
-    padding: 15px;
+    padding-top: 9px;
+    padding-left: 15px;
+    margin-top: 110px;
     }
   
 .portpic {
