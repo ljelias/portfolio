@@ -118,8 +118,6 @@ label {
     width: 500px;
 }
 
-
-
 .gallerydiv {
     display: flex;
     flex-wrap: wrap;
@@ -130,7 +128,7 @@ label {
 .portpic {
     height: 200px;
     width: 300px;
-    margin: 20px 25px 20px 25px;
+    margin: 18px;
 }
 
 .picbanner {
