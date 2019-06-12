@@ -15,7 +15,7 @@ header {
     z-index: 2;
     width: 100%;
     background-color: rgba(241, 241, 241, 0.7);
-    border-bottom: 2px solid #effc3f;
+    border-bottom: 2px solid rgb(168, 140, 12);
 }
 
 .headercontainer {
@@ -34,8 +34,8 @@ header {
 
 .container {
     width: 85%;
-    margin: 100px auto 60px auto;
-    padding: 20px;
+    margin: 85px auto 60px auto;
+    padding: 15px 30px;
     background-color: rgba(241, 241, 241, 0.3);
     border: 1px solid #808080;
 }
@@ -56,9 +56,21 @@ header {
     line-height: 2em;
 }
 
+.c-link {
+    color: #3f3f3f;
+    margin-top: 6px;
+    padding: 3px 15px;
+    border-radius: 21px;
+}
+
+.c-link:hover {
+    background-color: rgba(241, 241, 241, 0.2);
+}
+
 h4 {
     color: #3f3f3f;
-    font-size: 1.7em;
+    font-size: 1.6em;
+    line-height: 1.2em;
 }
 
 #mainpic {
@@ -78,12 +90,21 @@ a {
 }
 
 a:hover {
-    color: rgb(247, 210, 1);
+    color: rgb(168, 140, 12);
+}
+
+.topnav {
+    margin: 0 -9px;
+    padding: 9px 18px;
+}
+
+.topnav:hover {
+    background-color: rgba(241, 241, 241, 0.3);
 }
 
 h1 {
     font-size: 3em;
-    line-height: 1.5em;
+    line-height: 1.3em;
     text-align: left;
     padding-left: 18px;
     margin-top: 3px;
@@ -91,7 +112,7 @@ h1 {
 }
 
 h1:hover {
-    color: rgb(247, 210, 1);
+    color: rgb(168, 140, 12);
 }
 
 h3, h5 {
@@ -102,6 +123,7 @@ h3, h5 {
 h2 {
     text-align: left;
     color: #3f3f3f;
+    line-height: 1.2em;
 }
 
 p {
@@ -109,11 +131,16 @@ p {
     color: #3f3f3f;
 }
 
-
 .textbox {
     width: 500px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 18px;
     line-height: 2em;
+    background-color: whitesmoke;
+}
+
+.textbox:hover {
+    border: 2px solid grey;
 }
 
 .gallerydiv {
@@ -162,25 +189,25 @@ a .picbanner:hover {
 button {
     font-size: 1em;
     line-height: 1.2em;
-    color: #3f3f3f;
-    background: #deee02b9;
+    color: #080808;
+    background: rgb(168, 140, 12);
     padding: 10px 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 button:hover {
-    color: rgb(150, 150, 150);
-    background: #e7f153b9;
+    color: rgb(116, 116, 116);
+    background: rgb(236, 201, 42);
 }
 
 footer {
     z-index: 2;
-    height: 45px;
+    height: 36px;
     width: 100%;
     background-color: rgba(241, 241, 239, 0.7);
     margin-top: 30px;
-    padding-top: 15px;
-    border-top: 2px solid #effc3f;
+    padding-top: 10px;
+    border-top: 2px solid rgb(168, 140, 12);
     position: fixed;
     bottom: 0;
     font-size: .8em;
