@@ -32,60 +32,27 @@ header {
 
 }
 
-.container {
-    width: 85%;
-    margin: 85px auto 60px auto;
-    padding: 15px 30px;
-    background-color: rgba(241, 241, 241, 0.3);
-    border: 1px solid #808080;
+h1 {
+    font-size: 2.8em;
+    line-height: 1.3em;
+    text-align: left;
+    padding-left: 18px;
+    margin-top: 3px;
+    color: rgb(68, 68, 68);
 }
 
-#contactConnect {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: -15px;
-}
-
-#connect {
-    margin-left: 4vw;
-}
-
-#connect a {
-    font-size: 1.3em;
-    margin-left: 5vw;
-    line-height: 2em;
-}
-
-.c-link {
-    color: #3f3f3f;
-    margin-top: 6px;
-    padding: 3px 15px;
-    border-radius: 21px;
-}
-
-.c-link:hover {
-    background-color: rgba(241, 241, 241, 0.2);
-}
-
-h4 {
-    color: #3f3f3f;
-    font-size: 1.6em;
-    line-height: 1.2em;
-}
-
-#mainpic {
-    float: left;
-    padding: 0px 20px 6px 0px;
+h1:hover {
+    color: rgb(168, 140, 12);
 }
 
 nav {
+    color: rgb(68, 68, 68);
     align-self: center;
     font-size: 1.3em;
     margin: 12px 0;
 }
 
 a {
-    color: #3f3f3f;
     text-decoration: none;
 }
 
@@ -99,20 +66,57 @@ a:hover {
 }
 
 .topnav:hover {
+    background-color: rgba(241, 241, 241, 0.5);
+}
+
+.container {
+    width: 85%;
+    margin: 85px auto 60px auto;
+    padding: 15px 36px;
     background-color: rgba(241, 241, 241, 0.3);
+    border: 1px solid rgb(138, 138, 138);
 }
 
-h1 {
-    font-size: 3em;
-    line-height: 1.3em;
-    text-align: left;
-    padding-left: 18px;
-    margin-top: 3px;
-    color: #3f3f3f;
+hr {
+    border: 2px solid rgba(245,245,245,0.4);
+    border-radius: 1px;
 }
 
-h1:hover {
-    color: rgb(168, 140, 12);
+#contactConnect {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -15px;
+}
+
+#connect {
+    margin-left: 5vw;
+    color: rgb(68, 68, 68);
+
+}
+
+.c-link {
+    font-size: 1.3em;
+    margin-left: 4vw;
+    line-height: 2em;
+    margin-top: 6px;
+    padding: 3px 15px;
+    border-radius: 12px;
+}
+
+.c-link:hover {
+    background-color: rgba(241, 241, 241, 0.2);
+}
+
+h4 {
+    color: rgb(68, 68, 68);
+    font-size: 1.6em;
+    line-height: 1.2em;
+    margin-top: 18px;
+}
+
+#mainpic {
+    float: left;
+    padding: 0px 20px 6px 0px;
 }
 
 h3, h5 {
@@ -122,13 +126,13 @@ h3, h5 {
 
 h2 {
     text-align: left;
-    color: #3f3f3f;
+    color: rgb(68, 68, 68);
     line-height: 1.2em;
 }
 
 p {
     font-size: 1.2em;
-    color: #3f3f3f;
+    color: rgb(68, 68, 68);
 }
 
 .textbox {
@@ -137,10 +141,11 @@ p {
     margin-bottom: 18px;
     line-height: 2em;
     background-color: whitesmoke;
+    border: 2px solid whitesmoke;
 }
 
 .textbox:hover {
-    border: 2px solid grey;
+    border: 2px solid rgba(68, 68, 68, 0.7);
 }
 
 .gallerydiv {
@@ -190,9 +195,10 @@ button {
     font-size: 1em;
     line-height: 1.2em;
     color: #080808;
-    background: rgb(168, 140, 12);
+    background: rgba(168, 140, 12, 0.9);
     padding: 10px 20px;
     margin-bottom: 5px;
+    border-radius: 3px;
 }
 
 button:hover {
@@ -212,7 +218,7 @@ footer {
     bottom: 0;
     font-size: .8em;
     text-align: center;
-    color: #2b2b2b;
+    color: rgb(68, 68, 68);
 
 }
 
