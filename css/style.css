@@ -96,6 +96,8 @@ hr {
 
 .c-link {
     font-size: 1.3em;
+    background-color: rgba(241, 241, 241, 0.2);
+    border: 1px solid rgb(138, 138, 138);
     margin-left: 4vw;
     line-height: 2em;
     margin-top: 6px;
@@ -104,7 +106,7 @@ hr {
 }
 
 .c-link:hover {
-    background-color: rgba(241, 241, 241, 0.2);
+    background-color: rgba(241, 241, 241, 0.25);
 }
 
 h4 {
